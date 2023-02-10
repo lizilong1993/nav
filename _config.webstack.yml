@@ -1,0 +1,826 @@
+favicon: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/favicon.ico
+banner: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/webstack_banner_cn.png
+
+logo:
+  expanded: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/logo@2x_lizilong854x534.png
+  collapsed: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/logo-collapse@2x_lizilong400x400.png
+  dark: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/logo@2x_lizilong854x534.png
+
+flag:
+  - name: Chinese
+    default: true
+    icon: flag-cn
+    index: /
+
+search: true
+
+userDefinedSearchData:
+  custom: false
+  thisSearch: https://www.baidu.com/s?wd=
+  thisSearchIcon: url(https://www.baidu.com/favicon.ico)
+  hotStatus: true
+  data:
+    - name: 百度
+      img: url(https://www.baidu.com/favicon.ico)
+      url: https://www.baidu.com/s?wd=
+    - name: 谷歌
+      img: url(https://www.google.com/favicon.ico)
+      url: https://www.google.com/search?q=
+
+githubCorner: '<a href="https://github.com/lizilong1993" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>'
+
+expandAll: false
+menu:
+  - name: 个人博客
+    icon: fas fa-address-card
+    config: myPage
+  - name: 编程常用
+    icon: far fa-heart
+    submenu:
+      - name: 前端常用
+        icon: fas fa-star
+        config: codeFront
+      - name: 在线题库
+        icon: fas fa-warehouse
+        config: codeQuestion
+      - name: 在线工具
+        icon: fas fa-wrench
+        config: codeTools
+      - name: Icon图标库
+        icon: fas fa-paper-plane
+        config: codeIcons
+      - name: 图床软件
+        icon: fas fa-camera
+        config: codeImages
+      - name: JetBrain破解
+        icon: fas fa-code
+        config: codeCrack
+      - name: emoji
+        icon: fas fa-smile-beam
+        config: codeEmojis
+      - name: badges徽章
+        icon: fas fa-certificate
+        config: codeBadges
+      - name: 组件插件
+        icon: fas fa-plug
+        config: codePlugins
+  - name: 项目文档
+    icon: fas fa-dollar-sign
+    submenu:
+      - name: 项目开发
+        icon: fas fa-folder-open
+        config: projectWeb
+      - name: 文档教程
+        icon: fas fa-file-word
+        config: projectDocument
+  - name: 办公常用
+    icon: fas fa-suitcase
+    submenu:
+      - name: 翻墙
+        icon: fas fa-location-arrow
+        config: workPAC
+      - name: 远程控制
+        icon: fas fa-layer-group
+        config: workController
+      - name: 图片处理
+        icon: fas fa-image
+        config: workPS
+      - name: 手写字
+        icon: fas fa-edit
+        config: workHandwrite
+      - name: 翻译软件
+        icon: fas fa-language
+        config: workTranslate
+      - name: Markdown
+        icon: fab fa-markdown
+        config: workMarkdown
+      - name: Office
+        icon: fas fa-file-powerpoint
+        config: workOffice
+  - name: 博客建站
+    icon: fas fa-blog
+    submenu:
+      - name: 博客框架
+        icon: fab fa-phoenix-framework
+        config: blogFramework
+      - name: 常用工具
+        icon: fas fa-tools
+        config: blogTools
+      - name: 服务器
+        icon: fas fa-server
+        config: blogVPS
+      - name: 域名
+        icon: fas fa-wifi
+        config: blogDomain
+      - name: 网站分析
+        icon: fas fa-network-wired
+        config: blogAnalysis
+      - name: 网站部署
+        icon: fab fa-internet-explorer
+        config: blogDeploy
+      - name: 网站加速
+        icon: fas fa-tachometer-alt
+        config: blogCDN
+  - name: 系统镜像
+    icon: fab fa-windows
+    config: systemIMG
+  - name: 其它工具
+    icon: fas fa-water
+    config: others
+
+myPage:
+  - name: 我的博客
+    url: https://lizilong1993.github.io
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/lizilong.png
+    description: lizilong的部落格
+  - name: 我的Github
+    url: https://github.com/lizilong1993
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/lizilong_h.png
+    description: lizilong的部落格
+codeFront:
+  - name: FeHelper
+    url: https://www.baidufe.com/fehelper/index/index.html
+    img: https://static.baidufe.com/fehelper/static/img/fe-128.png
+    description: Web开发者助手JSON自动/手动格式化、JSON内容比对、代码美化与压缩、信息编解码转换、二维码生成与解码、图片Base64编解码转换、Markdown、 网页油猴、网页取色器、脑图(Xmind)等贴心工具，！
+  - name: CSS 布局生成器
+    url: https://layout.bradwoods.io/customize
+    img: https://layout.bradwoods.io/favicon.ico
+    description: 它是一个全功能的 CSS 和 JSX 生成器，用于使用 CSS Grid 布局语法生成不同种类的布局，任意修改 Grid 的属性，并且实时展示画面，生成对应代码。当然还有 Flex 布局（不过现在还不是很完善）
+  - name: Riju
+    url: https://riju.codes/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/20230121024423.png
+    description: fast online playground for every programming language
+  - name: Whirl
+    url: https://whirl.netlify.app/
+    img: https://whirl.netlify.app/favicon.ico
+    description: CSS loading animations with minimal effort!
+  - name: Pikaday
+    url: https://pikaday.com/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/20230121025200.png
+    description: A refreshing JavaScript Datepicker
+  - name: Tailwind Components
+    url: https://tailwindcomponents.com/
+    img: https://tailwindcomponents.com/favicon.ico
+    description: A free repository for community components using Tailwind CSS
+  - name: Tail-Kit
+    url: https://www.tailwind-kit.com/
+    img: https://www.tailwind-kit.com/icons/rocket.svg
+    description: Components and templates for Tailwind CSS
+  - name: Tidy.js
+    url: https://pbeshai.github.io/tidy/
+    img: https://pbeshai.github.io/tidy/img/logo.svg
+    description: Tidy up your data with JavaScript
+  - name: party.js
+    url: https://party.js.org/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/partyjs.svg
+    description: A JavaScript library to brighten up your user's site experience with visual effects!
+  - name: Layout patterns
+    url: https://web.dev/patterns/layout/
+    img: https://web.dev/images/favicon-32x32.png
+    description: A collection of layout patterns built using modern CSS APIs that will help you build common interfaces such as cards, dynamic grid areas, and full-page layouts.
+  - name: Lowdefy
+    url: https://lowdefy.com/
+    img: https://lowdefy.com/icons/icon-48x48.png?v=1a3f5b3513cfcf6f7cdd1ca70b2025e3
+    description: Lowdefy 是一个开源的低代码框架，通过 YAML 来轻松构建 web 应用、管理面板、BI 仪表板、工作流和 CRUD 应用
+  - name: UNCUT
+    url: https://uncut.wtf/
+    img: https://uncut.wtf//assets/images/favicon.png
+    description: uncut 是一个现代字体目录网站，重点是开源，可免费用于个人和商用
+  - name: Frontend Toolkit
+    url: https://www.fetoolkit.io/
+    img: https://www.fetoolkit.io/assets/apple-touch-icon.png
+    description: fetoolkit 是一个前端开发工具箱，收录了 20 多种编码、图片相关的工具，包括 CSS、JSON、图标、SVG、图像压缩、npm、regex 等工具
+  - name: unicode  arrows
+    url: https://unicodearrows.com/
+    img: https://unicodearrows.com/favicon.svg
+    description: Unicode Arrows 是一个收录了各式各样的箭头相关的十六进制代码
+  - name: components AI
+    url: https://components.ai/
+    img: https://dc28c2r6oodom.cloudfront.net/favicon.ico
+    description: components AI 是一个主题构建器，包括语法高亮生成器、渐变、阴影工具、SVG 图案生成器、动画背景等等，全部都可以在线调试，非常好用
+  - name: Glitter
+    url: https://wh0.github.io/glitter/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/20230121025800.png
+    description: Glitter 是一个荧光字体生成器
+  - name: Pattern Generator
+    url: https://doodad.dev/pattern-generator/
+    img: https://doodad.dev/favicon.ico
+    description: pattern-generator 是一个帮助你生成背景图片的网站
+  - name: Buttons Generator
+    url: https://markodenic.com/tools/buttons-generator/
+    img: https://markodenic.com/wp-content/themes/blog/favicon/favicon-32x32.png
+    description: buttons-generator 是一个包含了很多种交互形式以及样式的按钮的网站
+  - name: Maplibre
+    url: https://maplibre.org/
+    img: https://maplibre.org/favicon.ico
+    description: maplibre 是一个 JavaScript 世界地图库，开箱即用，同时也支持了 IOS 和 Android 的 SDK
+  - name: Dopefolio
+    url: https://dopefolio.netlify.app/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/20230121030012.png
+    description: Dopefolio 是一个开箱即用的官网页面生成器，没有依赖一堆的三方开源库，全部是纯 HTML、CSS
+codeQuestion:
+  - name: 力扣
+    url: https://leetcode.cn/
+    img: https://leetcode.cn/favicon.ico
+    description: 力扣
+codeTools:
+  - name: Apifox
+    url: https://www.apifox.cn/
+    img: https://www.apifox.cn/favicon.ico
+    description: API 文档、API 调试、API Mock、API 自动化测试API 一体化协作平台
+  - name: Postman
+    url: https://www.postman.com/
+    img: https://www.postman.com/_ar-assets/images/favicon-1-32.png
+    description: Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
+  - name: Neverinstall
+    url: https://neverinstall.com/
+    img: https://neverinstall.com/niLogoWhite.svg
+    description: Neverinstall supercharges your favorite apps with lightning-fast internet speeds and powerful computing.
+  - name: Road To Coding
+    url: https://r2coding.com/
+    img: https://r2coding.com/r2_static/img/favicon.ico
+    description: 旨在为编程自学者提供一系列清晰的学习路线、靠谱的资源、高效的工具、和务实的文章，方便自己也方便他人。
+  - name: snippet generator
+    url: https://snippet-generator.app/
+    img: https://snippet-generator.app/favicon.ico
+    description: snippet generator for VSCode,Sublime Text and Atom.
+  - name: PWA Manifest Generator
+    url: https://www.simicart.com/manifest-generator.html/
+    img: https://www.simicart.com/skin/frontend/default/simicart2.0/css/2017/images/icon-logo.png?simipwa=1
+    description: PWA Manifest Generator
+  - name: Favicon Generator
+    url: https://github.com/
+    img: https://realfavicongenerator.net/realfavicongenerator_brand.png?v=2
+    description: Favicon Generator. For real.
+  - name: favicon.io
+    url: https://favicon.io/
+    img: https://favicon.io/assets/static/favicon.b9532cc.ed88c65f76fa003989a0c683d668c765.png
+    description: The only favicon generator you need for your next project. Quickly generate your favicon from text, image, or choose from hundreds of emojis.
+  - name: Favicon Grabber
+    url: https://favicongrabber.com/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/20230121030057.png
+    description: Grabbing favicons from any domain
+  - name: The Favicon Finder
+    url: http://favicons.teamtailor-cdn.com/
+    img: http://favicons.teamtailor-cdn.com//favicon.ico
+    description: Grabbing favicons from any domain
+  - name: 在线工具箱
+    url: https://tool.lu/
+    img: https://tool.lu/favicon.ico
+    description: 前端后端办公等工具无所不包的神奇网站。
+  - name: 随机文本生成器
+    url: http://www.cancms.com/content/dummytext
+    img: http://www.cancms.com/favicon.ico
+    description: lorem ipsum 中文
+  - name: JSON to YAML
+    url: https://www.json2yaml.com/
+    img: https://www.json2yaml.com/images/favicon.ico
+    description: lorem ipsum 中文
+  - name: OSCHINA工具箱
+    url: https://tool.oschina.net/
+    img: https://tool.oschina.net/favicon.ico
+    description: 种类其全的前端工具箱网站
+  - name: ACONVERT.COM
+    url: https://www.aconvert.com/
+    img: https://www.aconvert.com/favicon.ico
+    description: Not just PDF, Aconvert.com can also convert all kinds of document, ebook, image, icon, video, audio and archive files online for free.
+  - name: 微兔Visual Tools
+    url: http://weitu.yunzhisec.com/
+    img: http://weitu.yunzhisec.com/_nuxt/img/vt-logo.8952bec.png
+    description: 零代码可视化设计工具
+  - name: 即时设计
+    url: https://js.design/
+    img: https://img.js.design/assets/img/60c0446dfbc9478b602e15f2.png
+    description: 可云端编辑的专业级 UI 设计工具，为中国设计师量身打造Windows 也能用的「协作版 Sketch」
+
+codeIcons:
+  - name: Font Aswsome
+    url: https://fontawesome.com/
+    img: https://fontawesome.com/favicon.ico
+    description: Font Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
+  - name: Simple Icons
+    url: https://simpleicons.org/
+    img: https://simpleicons.org/images/favicon.ico
+    description: 可与Sheilds IO配合使用，2434 Free SVG icons for popular brands
+  - name: iconfont
+    url: https://www.iconfont.cn/
+    img: http://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg
+    description: 阿里妈妈MUX倾力打造的矢量图标管理、交流平台，设计师将图标上传到 iconfont 平台，用户可以自定义下载多种格式的icon，平台也可将图标转换为字体，便于前端工程师自由调整与调用。
+  - name: Iconduck
+    url: https://iconduck.com/
+    img: https://iconduck.com/iconduck/static/images/icons/favicons/32x32.png
+    description: Iconduck 是一个开源 icon 网站，拥有超过 100,000 个图标，可以通过关键字搜索，并且都可以在商业项目中使用
+  - name: SVGREPO
+    url: https://www.svgrepo.com/
+    img: https://www.svgrepo.com/logo.svg
+    description: svgrepo 是一个 SVG 图标库，坐拥 300,000 + 免费使用的 SVG 图标，大部分也都是可以商用的。
+codeImages:
+  - name: Picgo
+    url: https://picgo.github.io/PicGo-Doc/zh/
+    img: https://pic.molunerfinn.com/picgo/docs/logo-150.png
+    description: 图片上传、管理新体验
+  - name: Picgo插件
+    url: https://github.com/PicGo/Awesome-PicGo
+    img: https://github.com/favicon.ico
+    description: A collection of awesome project using PicGo.
+  - name: 阿里云OSS
+    url: https://www.aliyun.com/
+    img: https://www.aliyun.com/favicon.ico
+    description: 丰富、安全、稳定的产品及服务
+codeCrack:
+  - name: Censys
+    url: https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.http.response.headers.location%3A+account.jetbrains.com%2Ffls-auth
+    img: https://search.censys.io/static/img/icon.png
+    description: 寻找全网包含account.jetbrains.com/fls-auth的网址
+  - name: SHODAN
+    url: https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth
+    img: https://www.shodan.io/static/img/favicon.png
+    description: 寻找全网包含account.jetbrains.com/fls-auth的网址
+  - name: JetBrains 激活服务器 (每日更新)
+    url: https://rushb.pro/article/JetBrains-license-server.html
+    img: https://dn-qiniu-avatar.qbox.me/avatar/126d7cee272a45cd72cfc551966753a8
+    description: JetBrains 激活服务器 (每日更新)
+codeEmojis:
+  - name: emoji-list
+    url: https://github.com/caiyongji/emoji-list
+    img: https://github.com/favicon.ico
+    description: github emoji表情列表。
+  - name: emoji速查
+    url: https://emotion.xiaokang.me/
+    img: https://emotion.xiaokang.me/favicon.ico
+    description: 各软件平台及私人化emoji表情列表。
+codeBadges:
+  - name: Shields.IO
+    url: https://shields.io/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/shieldio.png
+    description: free awesome badge maker
+  - name: Awesome Badges
+    url: https://envoy-vc.github.io/awesome-badges/
+    img: https://github.com/favicon.ico
+    description: A Curated List of Badges for GitHub
+  - name: Badgen
+    url: https://badgen.net/
+    img: https://badgen.net/static/badgen-logo.svg
+    description: Fast badge generating service
+  - name: Version Badge
+    url: https://badge.fury.io/
+    img: https://badge.fury.io/favicon.ico
+    description: Version Badge provides a consistent way for the community to learn about the package associated with a particular Github repository and other documentation pages.
+  - name: FOR THE BADGE
+    url: https://forthebadge.com/
+    img: https://forthebadge.com/favicon.ico
+    description: badges for badges's sake
+  - name: badges
+    url: https://github.com/boennemann/badges
+    img: https://github.com/favicon.ico
+    description: A collection of all JavaScript related and free for open-source readme badges out there.
+  - name: markdown-badges
+    url: https://ileriayo.github.io/markdown-badges/
+    img: https://github.com/favicon.ico
+    description: Badges for your personal developer branding, profile, and projects.
+codePlugins:
+  - name: Element Plus
+    url: https://element-plus.gitee.io/
+    img: https://element-plus.gitee.io/images/element-plus-logo.svg
+    description: 基于 Vue 3，面向设计师和开发者的组件库
+  - name: Anime.js
+    url: https://animejs.com/
+    img: https://animejs.com/documentation/assets/img/favicon.png
+    description: Anime.js is a lightweight JavaScript animation library with a simple, yet powerful API.
+  - name: Vite
+    url: https://vitejs.dev/
+    img: https://vitejs.dev/logo-with-shadow.png
+    description: Next Generation Frontend Tooling
+  - name: H-ui前端框架
+    url: http://www.h-ui.net/
+    img: http://www.h-ui.net/favicon.ico
+    description: 采用Gulp作为构建工具，css采用scss编写，js依赖jQuery框架
+  - name: Font Awsome
+    url: https://fontawesome.com/
+    img: https://fontawesome.com/favicon.ico
+    description: Take the hassle out of icons in your website.
+projectWeb:
+  - name: code.fun
+    url: https://code.fun/
+    img: https://code.fun/favicon.ico
+    description: UI 设计稿智能生成前端源代码
+  - name: vuejsexamples
+    url: https://vuejsexamples.com/
+    img: https://vuejsexamples.com/favicon.ico
+    description: 各种web开发模板集合
+projectDocument:
+  - name: MRCODE-BOOK
+    url: https://zq99299.github.io/note-book/
+    img: https://zq99299.github.io/note-book/favicon.ico
+    description: 用来记录工作和学习过程中的笔记，汇总成册方便查阅，类容涵盖各类技术，如：Java、Git、ElasticSearch、MyCat、设计模式、Gradle、Vue - mrcode.cn
+  - name: 廖雪峰的官方网站
+    url: https://www.liaoxuefeng.com/
+    img: https://www.liaoxuefeng.com/favicon.ico
+    description: Java/Python/Javascript/区块链/SQL/Git等教程
+  - name: CodingDocs/awesome-java
+    url: https://github.com/CodingDocs/awesome-java
+    img: https://github.com/favicon.ico
+    description: awesome-java
+  - name: ityouknow/awesome-spring-boot
+    url: https://github.com/ityouknow/awesome-spring-boot
+    img: https://github.com/favicon.ico
+    description: Awesome Spring Boot
+  - name: dyc87112/SpringBoot-Learning
+    url: https://github.com/dyc87112/SpringBoot-Learning
+    img: https://github.com/favicon.ico
+    description: Spring Boot基础教程
+  - name: Spring Boot 中文索引
+    url: http://springboot.fun/
+    img: http://springboot.fun/img/favicon.png
+    description: Spring Boot 中文索引
+  - name: BezKoder - Mobile & Web App Development Tutorials
+    url: https://www.bezkoder.com/
+    img: https://www.bezkoder.com/wp-content/uploads/logo-60x60.png
+    description: Mobile & Web App Development Tutorials
+  - name: MKyong.com
+    url: https://mkyong.com/
+    img: https://mkyong.com/favicon.ico
+    description: java相关教程
+  - name: spring boot实战
+    url: https://blog.csdn.net/liaokailin/category_5765237.html
+    img: https://img-blog.csdnimg.cn/20201014180756754.png?x-oss-process=image/resize,m_fixed,h_64,w_64
+    description: spring boot实战
+  - name: javaTpoint
+    url: https://www.javatpoint.com/
+    img: https://static.javatpoint.com/images/favicon2.png
+    description: 全栈教程
+  - name: 狂神说SpringBoot最全笔记
+    url: https://blog.csdn.net/weixin_44273302/article/details/113737242
+    img: https://img-blog.csdnimg.cn/20201014180756925.png
+    description: 狂神说SpringBoot最全笔记
+  - name: IT教程吧
+    url: https://www.itjc8.com/
+    img: https://www.itjc8.com/favicon.ico
+    description: IT教程吧
+  - name: Exploring JS
+    url: https://exploringjs.com/
+    img: https://exploringjs.com/img/axel_head.jpg
+    description: Exploring JS:JavaScript books for programmers
+  - name: 写给不耐烦程序员的 JavaScript
+    url: https://apachecn.gitee.io/impatient-js-zh/#/
+    img: https://apachecn.gitee.io/impatient-js-zh/cover.jpg
+    description: JavaScript for impatient programmers
+  - name: 《动手学深度学习》
+    url: https://zh-v2.d2l.ai/
+    img: https://zh-v2.d2l.ai/_static/logo-with-text.png
+    description: 面向中文读者的能运行、可讨论的深度学习教科书,含 PyTorch、NumPy/MXNet、TensorFlow 和 PaddlePaddle 实现
+  - name: 现代 JavaScript 教程
+    url: https://zh.javascript.info/
+    img: https://zh.javascript.info/img/favicon/tileicon.png
+    description: JavaScript 简单但足够详细
+  - name: 编程导航
+    url: https://www.code-nav.cn/
+    img: https://www.code-nav.cn/favicon.ico
+    description: 编程导航知识星球
+  - name: 地鼠文档(Go语言)
+    url: https://www.topgoer.cn/
+    img: https://www.topgoer.cn/favicon.ico
+    description: Go语言相关文档
+  - name: Docker-从入门到实践
+    url: https://yeasy.gitbook.io/docker_practice/
+    img: https://app.gitbook.com/public/emojis/1f680.png
+    description: Docker-从入门到实践
+  - name: 自学SQL网
+    url: http://xuesql.cn/
+    img: https://api1024.oss-cn-shanghai.aliyuncs.com/xuesql/favicon.png
+    description: 自学SQL网
+  - name: GitHub 漫游指南
+    url: https://github.com/phodal/github
+    img: https://github.com/favicon.ico
+    description: GitHub 漫游指南
+  - name: jackfrued/Python-100-Days
+    url: https://github.com/jackfrued/Python-100-Days
+    img: https://github.com/favicon.ico
+    description: Python - 100天从新手到大师
+  - name: 被删的前端游乐场
+    url: http://godbasin.com/
+    img: https://github-imglib-1255459943.cos.ap-chengdu.myqcloud.com/chunzhu.jpg
+    description: 补齐前端基础知识，掌握开发调试技巧。
+  - name: JavaGuide
+    url: https://javaguide.cn/
+    img: https://javaguide.cn/logo.png
+    description: 「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+  - name: 后盾人
+    url: https://doc.houdunren.com/
+    img: https://doc.houdunren.com/icon.png
+    description: 前端在线文档
+  - name: Road To Coding
+    url: https://r2coding.com/
+    img: https://r2coding.com/r2_static/img/favicon.ico
+    description: 旨在为编程自学者提供一系列清晰的学习路线、靠谱的资源、高效的工具、和务实的文章，方便自己也方便他人。
+  - name: PINEVIEW LABS
+    url: https://labs.pineview.io/
+    img: https://labs.pineview.io/favicon.ico
+    description: Building creative, dependable, open-source software solutions
+workPAC:
+  - name: frank-lam/vps-ss
+    url: https://github.com/frank-lam/vps-ss
+    img: https://github.com/favicon.ico
+    description: 🌓 手把手教你，搭建搬瓦工 SS 代理。带你科学上网，窥探墙外的世界。
+  - name: V2Fly.org
+    url: https://www.v2fly.org/
+    img: https://www.v2fly.org/favicon.ico
+    description: 助你打造专属基础通信网络
+workController:
+  - name: GotoHTTP
+    url: https://gotohttp.com/
+    img: https://gotohttp.com/favicon.ico
+    description: GotoHTTP - 新一代远程控制平台，精小、易用的远程控制工具。
+  - name: ToDesk
+    url: https://www.todesk.com/
+    img: https://www.todesk.com/favicon.ico
+    description: 更快更稳定更安全
+  - name: 向日葵远程控制软件
+    url: https://sunlogin.oray.com/
+    img: https://sunlogin.oray.com/favicon.ico
+    description: PC、移动设备均可远控
+  - name: TeamViewer
+    url: https://www.teamviewer.com/
+    img: https://www.teamviewer.com/favicon.ico
+    description: The world’s most trusted remote access, control and support software
+  - name: Parsec
+    url: https://parsec.app/
+    img: https://parsec.app/favicon.ico
+    description: Forget you're somewhere else
+workPS:
+  - name: uupoop
+    url: https://www.uupoop.com/#/old
+    img: https://www.uupoop.com/favicon.ico
+    description: 在线PS
+  - name: Photopea
+    url: https://www.photopea.com/
+    img: https://www.photopea.com/promo/icon512.png
+    description: 在线PS - Photopea图片编辑
+  - name: 美图秀秀
+    url: https://pc.meitu.com/
+    img: https://pc.meitu.com/favicon.ico
+    description: 简单好上手，设计不求人
+  - name: Baseline
+    url: https://baseline.is/tools/background-remover/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/baseline.svg
+    description: Free Background Remover
+  - name: removebg
+    url: https://www.remove.bg/zh
+    img: https://www.remove.bg/favicon.ico
+    description: 图片背景消除
+  - name: AI人工智能图片放大
+    url: https://bigjpg.com/
+    img: https://bigjpg.com/favicon.ico
+    description: AI人工智能图片放大
+  - name: SOOGIF
+    url: https://www.soogif.com/
+    img: https://www.soogif.com/favicon.ico
+    description: SOOGIF，找动图做动图.gif
+workHandwrite:
+  - name: 萝卜工坊
+    url: http://www.beautifulcarrot.com/
+    img: http://beautifulcarrot-sh.oss-cn-shanghai.aliyuncs.com/static/img/logosmall.png
+    description: 在线转换模拟手写字体文档，让打印的字看起来像手写的一样,AI专属字体制作，智能模仿
+  - name: Text to Handwriting
+    url: https://saurabhdaware.github.io/text-to-handwriting/#how-to-add-handwriting
+    img: https://saurabhdaware.github.io/text-to-handwriting/images/favicon-32x32.png
+    description: 文本转手写样式
+  - name: Text to Handwriting(2)
+    url: http://font.ailei.host/
+    img: http://font.ailei.host/images/favicon-32x32.png
+    description: 文本转手写样式
+workTranslate:
+  - name: Translator
+    url: https://github.com/zu1k/translator
+    img: https://github.com/favicon.ico
+    description: Translator 是使用Rust编写的翻译小工具
+  - name: CopyTranslator
+    url: https://copytranslator.gitee.io/
+    img: https://copytranslator.gitee.io/icon.png
+    description: 复制即翻译的外文辅助阅读翻译解决方案
+workMarkdown:
+  - name: Markdown排版
+    url: https://markdown.com.cn/editor/
+    img: https://markdown.com.cn/hero.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: 可能吧公众号排版器
+    url: https://knb.im/mp/
+    img: https://knb.im/mp/favicon.ico
+    description: 欢迎使用有点逼格的可能吧 Markdown to 公众号一键转换器。
+workOffice:
+  - name: reveal.js
+    url: https://revealjs.com/
+    img: https://static.slid.es/reveal/logo-v1/reveal-white-text.svg
+    description: THE HTML PRESENTATION FRAMEWORK
+  - name: Slidev
+    url: https://sli.dev/
+    img: https://sli.dev/favicon.png
+    description: Presentation Slides for Developers
+blogFramework:
+  - name: 博客框架排行
+    url: https://jamstack.org/generators/
+    img: https://jamstack.org/img/favicons/favicon-32x32.png
+    description: A List of Static Site Generators for Jamstack Sites
+  - name: Hexo
+    url: https://hexo.io/zh-cn/
+    img: https://hexo.io/favicon.ico
+    description: 快速、简洁且高效的博客框架
+  - name: Hugo
+    url: https://gohugo.io/
+    img: https://gohugo.io/favicon.ico
+    description: The world’s fastest framework for building websites
+  - name: VitePress
+    url: https://vitepress.vuejs.org/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/20230121032007.png
+    description: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
+  - name: VuePress
+    url: https://vuepress.vuejs.org/zh/
+    img: https://vuepress.vuejs.org/hero.png
+    description: Vue 驱动的静态网站生成器
+  - name: Gastby
+    url: https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/gatsbyjs.png
+    description: The official blog starter for GatsbyJS.
+  - name: Jekyll
+    url: https://jekyllrb.com/
+    img: https://jekyllrb.com/favicon.ico
+    description: Transform your plain text into static websites and blogs.
+  - name: Docsify
+    url: https://docsify.js.org/
+    img: https://docsify.js.org/_media/icon.svg
+    description: A magical documentation site generator.
+  - name: MkDocs
+    url: https://www.mkdocs.org/
+    img: https://www.mkdocs.org/img/favicon.ico
+    description: Project documentation with Markdown.
+  - name: Gridea
+    url: https://gridea.dev/
+    img: https://gridea.dev/favicon.ico
+    description: Gridea 是一个静态博客写作客户端，帮助你更容易地构建并管理博客或任何静态站点。。
+blogTools:
+  - name: TinyPNG
+    url: https://tinypng.com/
+    img: https://tinypng.com/images/panda-happy.png
+    description: 图片压缩Smart WebP, PNG and JPEG compression
+  - name: Caesium Image Compressor
+    url: https://saerasoft.com/caesium/
+    img: https://saerasoft.com/images/logo.png
+    description: Compress your pictures up to 90% without visible quality loss
+  - name: Imgbot
+    url: https://imgbot.net/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/imgbot.png
+    description: Relax while Imgbot optimizes your images
+blogVPS:
+  - name: RackNerd
+    url: https://www.racknerd.com/
+    img: https://www.racknerd.com/favicon.png
+    description: RackNerd provides KVM VPS in Los Angeles, San Jose, Seattle, Dallas, Atlanta, Chicago, New Jersey, New York, Ashburn, and Amsterdam
+  - name: frank-lam/vps-ss
+    url: https://github.com/frank-lam/vps-ss
+    img: https://github.com/favicon.ico
+    description: 🌓 手把手教你，搭建搬瓦工 SS 代理。带你科学上网，窥探墙外的世界。
+blogDomain:
+  - name: Name.com
+    url: https://www.name.com/
+    img: https://zh-cn-54db3c5aa00267040.getsmartling.com/media/favicon/favicon.svg
+    description: 无论您从事什么工作，我们都能让您轻松找到合适的域并将其连接到您喜爱的产品。
+blogAnalysis:
+  - name: PageSpeed Insights
+    url: https://pagespeed.web.dev/
+    img: https://www.gstatic.com/pagespeed/insights/ui/logo/favicon_48.png
+    description: 使您的网页在所有设备上都能快速加载。
+blogDeploy:
+  - name: Netlify
+    url: https://www.netlify.com/
+    img: https://driftt.imgix.net/https%3A%2F%2Fdriftt.imgix.net%2Fhttps%253A%252F%252Fs3.us-east-1.amazonaws.com%252Fcustomer-api-avatars-prod%252F5087977%252Fe5f41df3a1c82403d5f7f0be379cd23df3fgw66zid43%3Ffit%3Dmax%26fm%3Dpng%26h%3D200%26w%3D200%26s%3D41a383a1f0f4500d967054b0c72128ab?fit=max&fm=png&h=200&w=200&s=fda4c71260eef932a5b87ae44cdffa54
+    description: The fastest way to combine your favorite tools and APIs to build the fastest sites, stores, and apps for the web.
+  - name: Vercel
+    url: https://vercel.com/
+    img: https://assets.vercel.com/image/upload/front/favicon/vercel/57x57.png
+    description: 使您的网页在所有设备上都能快速加载。
+  - name: Github Pages
+    url: https://pages.github.com/
+    img: https://pages.github.com/favicon.ico
+    description: Websites for you and your projects.
+blogCDN:
+  - name: jsDelivr
+    url: https://www.jsdelivr.com/
+    img: https://www.jsdelivr.com/favicon.ico
+    description: A free CDN for Open Source
+  - name: npm.elemecdn.com
+    url: https://cdn.bytedance.com/
+    img: https://cdn.bytedance.com/src/res/favicon.png
+    description: 字节跳动静态资源公共库
+  - name: BootCDN
+    url: https://www.bootcdn.cn/
+    img: https://www.bootcdn.cn/assets/ico/favicon.ico
+    description: 稳定、快速、免费的前端开源项目 CDN 加速服务
+  - name: Staticfile CDN
+    url: https://www.staticfile.org/
+    img: https://www.staticfile.org/assets/images/logo.png
+    description: 七牛云
+  - name: 75 CDN
+    url: https://cdn.baomitu.com/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/360CDN.png
+    description: 360
+  - name: CDNJS
+    url: https://cdnjs.com/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/cdnjs.webp
+    description: 国外前端公共库，用的是 cloudflare，很全面
+  - name: 又拍云 CDN
+    url: http://jscdn.upai.com/
+    img: http://jscdn.upai.com/favicon.ico
+    description: 常用JavaScript库CDN服务
+systemIMG:
+  - name: DistroWatch.com
+    url: https://distrowatch.com/
+    img: https://distrowatch.com/favicon.ico
+    description: Put the fun back into computing.Use Linux,BSD.
+  - name: ITELLYOU
+    url: https://next.itellyou.cn/
+    img: https://next.itellyou.cn/favicon.ico
+    description: 提供可靠的原版软件。
+others:
+  - name: WGestures全局鼠标手势
+    url: http://www.yingdev.com/projects/wgestures
+    img: http://www.yingdev.com/favicon.ico
+    description: 一个更简单、更现代的鼠标手势。免费 & 开源。
+  - name: Convertio
+    url: https://convertio.co/zh/
+    img: https://convertio.co/favicon.ico
+    description: 文件转换器
+  - name: ChatGPT
+    url: https://chat.openai.com/
+    img: https://www.jsdelivr.com/favicon.ico
+    description: 文件转换器
+  - name: 网易见外
+    url: https://jianwai.youdao.com/
+    img: https://jianwai.youdao.com/favicon.ico
+    description: 视频字幕生成
+  - name: No-Cruft Excel to HTML Table Converter
+    url: http://pressbin.com/tools/excel_to_html_table/index.html
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/20230121025049.png
+    description: This simple utility allows you to paste data from an Excel spreadsheet (or an HTML table) and convert it to a new HTML table that is free of extraneous formatting.
+  - name: cloudconvert
+    url: https://cloudconvert.com/
+    img: https://cloudconvert.com/images/logo_flat_110_borderless.png
+    description: CloudConvert is an online file converter. We support nearly all audio, video, document, ebook, archive, image, spreadsheet, and presentation formats.
+  - name: ALIST
+    url: https://alist.nn.ci/
+    img: https://alist.nn.ci/logo.svg
+    description: 🗂️ A file list program that supports multiple storage, powered by Gin and Solidjs.
+
+myBlog:
+  - name: lizilong的部落格
+    url: https://lizilong1993.github.io/
+    img: https://lizilong1993.github.io/img/lizilong.png
+    description: 进一步有进一步的欢喜。
+
+about:
+  url: https://lizilong1993.github.io/about/
+  icon: far fa-heart
+  name: 关于本站
+
+since: 2023
+
+busuanzi:
+  enable: true
+  position: sidebar # 'footer','sidebar'
+  pv: 本站总访问量$pv
+  uv: 本站总访客数$uv
+
+custom:
+  head:
+    |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+  body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+
+js:
+  header: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/js/header.js
+  footer: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/js/footer.js
+  jquery: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/1.11.1/jquery.min.js
+  bootstrap: https://lib.baomitu.com/twitter-bootstrap/3.3.1/js/bootstrap.min.js
+  TweenMax: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/js/TweenMax.min.js
+  resizeable: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/js/resizeable.min.js
+  joinable: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/js/joinable.js
+  xenonApi: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/js/xenon-api.min.js
+  xenonToggles: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/js/xenon-toggles.min.js
+  xenonCustom: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/js/xenon-custom.min.js
+  lozad: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/lozad.js/1.16.0/lozad.min.js
+  html5shiv: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/html5shiv/3.7.2/html5shiv.min.js
+  respond: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/respond.js/1.4.2/respond.min.js
+  busuanzi: https://lib.baomitu.com/busuanzi/2.3.0/bsz.pure.mini.min.js
+
+css:
+  hclonely: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/css/hclonely.css
+  fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
+  linecons: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/css/fonts/linecons/css/linecons.min.css
+  fontawesome: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/css/fonts/fontawesome/css/all.min.css
+  bootstrap: https://lib.baomitu.com/twitter-bootstrap/3.3.1/css/bootstrap.min.css
+  xenonCore: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/css/xenon-core.min.css
+  xenonComponents: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/css/xenon-components.min.css
+  xenonSkins: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/css/xenon-skins.min.css
+  nav: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/css/nav.min.css
