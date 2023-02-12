@@ -379,6 +379,18 @@ codeBadges:
     img: https://github.com/favicon.ico
     description: Badges for your personal developer branding, profile, and projects.
 codePlugins:
+  - name: Vue.js
+    url: https://vuejs.org/
+    img: https://vuejs.org/logo.svg
+    description: Vue官方站
+  - name: Vue3 One Piece
+    url: https://vue3js.cn/
+    img: https://static.vue-js.com/6280b990-ff19-11ea-85f6-6fac77c0c9b3.png
+    description: 非官方，更快，更轻，易维护，更多的原生支持
+  - name: Pinia 中文文档
+    url: https://pinia.web3doc.top/
+    img: https://pinia.web3doc.top/logo.svg
+    description: 您将喜欢使用的 Vue 存储库
   - name: Element Plus
     url: https://element-plus.gitee.io/
     img: https://element-plus.gitee.io/images/element-plus-logo.svg
@@ -548,6 +560,18 @@ workController:
     img: https://parsec.app/favicon.ico
     description: Forget you're somewhere else
 workPS:
+  - name: ClipDrop
+    url: https://clipdrop.co/
+    img: https://clipdrop.co/favicon.ico
+    description: Cleanup, Remove background, Relight, Image upscaler, Text to image, Repalce background, Text remover.
+  - name: 清图
+    url: https://qingtu.cn/
+    img: https://qingtu.cn/static/images/icon.png
+    description: 《清图》是一款基于深度学习技术将模糊人像照片变清晰的在线工具,清图、动漫、抠图、证件照、着色。
+  - name: big jpg
+    url: https://bigjpg.com/
+    img: https://bigjpg.com/htdocs/favicon.ico
+    description: AI人工智能图片放大
   - name: uupoop
     url: https://www.uupoop.com/#/old
     img: https://www.uupoop.com/favicon.ico
