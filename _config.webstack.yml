@@ -70,6 +70,9 @@ menu:
       - name: 项目开发
         icon: fas fa-folder-open
         config: projectWeb
+      - name: API
+        icon: fas fa-restroom
+        config: projectAPI
       - name: 文档教程
         icon: fas fa-file-word
         config: projectDocument
@@ -224,14 +227,6 @@ codeQuestion:
     img: https://leetcode.cn/favicon.ico
     description: 力扣
 codeTools:
-  - name: Apifox
-    url: https://www.apifox.cn/
-    img: https://www.apifox.cn/favicon.ico
-    description: API 文档、API 调试、API Mock、API 自动化测试API 一体化协作平台
-  - name: Postman
-    url: https://www.postman.com/
-    img: https://www.postman.com/_ar-assets/images/favicon-1-32.png
-    description: Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
   - name: Neverinstall
     url: https://neverinstall.com/
     img: https://neverinstall.com/niLogoWhite.svg
@@ -420,6 +415,23 @@ projectWeb:
     url: https://vuejsexamples.com/
     img: https://vuejsexamples.com/favicon.ico
     description: 各种web开发模板集合
+projectAPI:
+  - name: Apifox
+    url: https://www.apifox.cn/
+    img: https://www.apifox.cn/favicon.ico
+    description: API 文档、API 调试、API Mock、API 自动化测试API 一体化协作平台
+  - name: Postman
+    url: https://www.postman.com/
+    img: https://www.postman.com/_ar-assets/images/favicon-1-32.png
+    description: Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
+  - name: FastAPI
+    url: https://fastapi.tiangolo.com/
+    img: https://fastapi.tiangolo.com/img/icon-white.svg
+    description: FastAPI 框架，高性能，易于学习，高效编码，生产可用
+  - name: FastAPI
+    url: https://swagger.io/
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/swagger_logo.svg
+    description: API Development for Everyone
 projectDocument:
   - name: MRCODE-BOOK
     url: https://zq99299.github.io/note-book/
