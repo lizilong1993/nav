@@ -406,6 +406,10 @@ codePlugins:
     url: https://fontawesome.com/
     img: https://fontawesome.com/favicon.ico
     description: Take the hassle out of icons in your website.
+  - name: AutoX.js
+    url: hhttp://doc.autoxjs.com/
+    img: http://doc.autoxjs.com/images/logo.png
+    description: Auto.js开源替代，安卓平台上的JavaScript自动化工具
 projectWeb:
   - name: code.fun
     url: https://code.fun/
