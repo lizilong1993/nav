@@ -344,6 +344,10 @@ codeEmojis:
     url: https://emotion.xiaokang.me/
     img: https://emotion.xiaokang.me/favicon.ico
     description: 各软件平台及私人化emoji表情列表。
+  - name: EmojiXD
+    url: https://emojixd.com/
+    img: https://emojixd.com/favicon.ico
+    description: EmojiXD是一本线上Emoji百科全书📚，收录了所有emoji，帮你通过分类或者搜索轻松找到合适的表情符号，并了解各种emoji符号的相关知识和使用情景
 codeBadges:
   - name: Shields.IO
     url: https://shields.io/
