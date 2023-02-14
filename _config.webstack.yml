@@ -446,7 +446,7 @@ projectAPI:
     description: FastAPI 框架，高性能，易于学习，高效编码，生产可用
   - name: FastAPI
     url: https://swagger.io/
-    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/swagger_logo.svg
+    img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/swagger.svg
     description: API Development for Everyone
 projectDocument: mozilla 开发者文档站，包括各种前端接口和文档
   - name: MDN
