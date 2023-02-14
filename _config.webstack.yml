@@ -221,12 +221,20 @@ codeFront:
     url: https://dopefolio.netlify.app/
     img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/typora/20230121030012.png
     description: Dopefolio 是一个开箱即用的官网页面生成器，没有依赖一堆的三方开源库，全部是纯 HTML、CSS
+  - name: Free Frontend
+    url: https://freefrontend.com/
+    img: https://freefrontend.com/favicon.ico
+    description: 前端相关资源和教程
 codeQuestion:
   - name: 力扣
     url: https://leetcode.cn/
     img: https://leetcode.cn/favicon.ico
     description: 力扣
 codeTools:
+  - name: Mermaid Live Editor
+    url: https://mermaid.live/
+    img: https://mermaid.live/favicon.png
+    description: Mermaid Live Editor
   - name: Neverinstall
     url: https://neverinstall.com/
     img: https://neverinstall.com/niLogoWhite.svg
@@ -440,7 +448,11 @@ projectAPI:
     url: https://swagger.io/
     img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/swagger_logo.svg
     description: API Development for Everyone
-projectDocument:
+projectDocument: mozilla 开发者文档站，包括各种前端接口和文档
+  - name: MDN
+    url: https://developer.mozilla.org/
+    img: https://developer.mozilla.org/favicon.ico
+    description:
   - name: MRCODE-BOOK
     url: https://zq99299.github.io/note-book/
     img: https://zq99299.github.io/note-book/favicon.ico
