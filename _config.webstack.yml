@@ -448,11 +448,11 @@ projectAPI:
     url: https://swagger.io/
     img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/swagger.svg
     description: API Development for Everyone
-projectDocument: mozilla 开发者文档站，包括各种前端接口和文档
+projectDocument:
   - name: MDN
     url: https://developer.mozilla.org/
     img: https://developer.mozilla.org/favicon.ico
-    description:
+    description: mozilla 开发者文档站，包括各种前端接口和文档
   - name: MRCODE-BOOK
     url: https://zq99299.github.io/note-book/
     img: https://zq99299.github.io/note-book/favicon.ico
