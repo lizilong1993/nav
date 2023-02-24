@@ -124,6 +124,12 @@ menu:
       - name: 网站加速
         icon: fas fa-tachometer-alt
         config: blogCDN
+  - name: 科研论文
+    icon: fas fa-cubes
+    submenu:
+      - name: 绘图
+        icon: fas fa-drafting-compass
+        config: researchFigure
   - name: 系统镜像
     icon: fab fa-windows
     config: systemIMG
@@ -815,6 +821,11 @@ blogCDN:
     url: http://jscdn.upai.com/
     img: http://jscdn.upai.com/favicon.ico
     description: 常用JavaScript库CDN服务
+researchFigure:
+  - name: Visual Paradigm Online (VP Online) 
+    url: https://online.visual-paradigm.com/cn/diagrams/solutions/free-erd-tool/
+    img: https://online.visual-paradigm.com/favicon.ico
+    description: 免费的实体关系图工具
 systemIMG:
   - name: DistroWatch.com
     url: https://distrowatch.com/
