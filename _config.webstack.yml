@@ -241,6 +241,10 @@ codeTools:
     url: https://mermaid.live/
     img: https://mermaid.live/favicon.png
     description: Mermaid Live Editor
+  - name: 菜鸟工具
+    url: https://c.runoob.com/
+    img: https://static.runoob.com/images/c-runoob-logo.ico
+    description: 各种在线工具，多到吓人
   - name: Neverinstall
     url: https://neverinstall.com/
     img: https://neverinstall.com/niLogoWhite.svg
@@ -459,6 +463,10 @@ projectDocument:
     url: https://developer.mozilla.org/
     img: https://developer.mozilla.org/favicon.ico
     description: mozilla 开发者文档站，包括各种前端接口和文档
+  - name: 《FFmpeg原理》
+    url: http://ffmpeg.xianwaizhiyin.net/
+    img: http://ffmpeg.xianwaizhiyin.net/favicon.ico
+    description: 主要讲解 FFmpeg 原理性的知识，前面几章主要讲解一些音视频开发的基础知识，例如原始数据 YUV 跟 RGB，封装格式 FLV 跟 MP4 ，压缩编码的基本概念，还有封装格式分析。   
   - name: MRCODE-BOOK
     url: https://zq99299.github.io/note-book/
     img: https://zq99299.github.io/note-book/favicon.ico
