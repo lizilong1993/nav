@@ -249,6 +249,10 @@ codeTools:
     url: https://neverinstall.com/
     img: https://neverinstall.com/niLogoWhite.svg
     description: Neverinstall supercharges your favorite apps with lightning-fast internet speeds and powerful computing.
+  - name: ILovePDF
+    url: https://www.ilovepdf.com/zh-cn
+    img: https://www.ilovepdf.com//img/app-icon.png
+    description: 完全免费、易于使用、丰富的PDF处理工具，包括：合并、拆分、压缩、转换、旋转和解锁PDF文件，以及给PDF文件添加水印的工具等。
   - name: Road To Coding
     url: https://r2coding.com/
     img: https://r2coding.com/r2_static/img/favicon.ico
