@@ -106,6 +106,9 @@ menu:
       - name: 博客框架
         icon: fab fa-phoenix-framework
         config: blogFramework
+      - name: 美化魔改
+        icon: fas fa-splotch
+        config: blogDoc
       - name: 常用工具
         icon: fas fa-tools
         config: blogTools
@@ -759,11 +762,16 @@ blogFramework:
     url: https://gridea.dev/
     img: https://gridea.dev/favicon.ico
     description: Gridea 是一个静态博客写作客户端，帮助你更容易地构建并管理博客或任何静态站点。。
-blogTools:
+blogDoc:
   - name: TinyPNG
     url: https://tinypng.com/
     img: https://tinypng.com/images/panda-happy.png
-    description: 图片压缩Smart WebP, PNG and JPEG compression
+    description: 
+blogTools:
+  - name: Butterfly主题美化教程
+    url: https://butterfly.zhheo.com/
+    img: https://butterfly.zhheo.com/img/logo.png
+    description: 让每个人轻松的自定义自己的博客
   - name: Caesium Image Compressor
     url: https://saerasoft.com/caesium/
     img: https://saerasoft.com/images/logo.png
