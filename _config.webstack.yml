@@ -40,9 +40,6 @@ menu:
       - name: 前端常用
         icon: fas fa-star
         config: codeFront
-      - name: 在线题库
-        icon: fas fa-warehouse
-        config: codeQuestion
       - name: 在线工具
         icon: fas fa-wrench
         config: codeTools
@@ -64,6 +61,12 @@ menu:
       - name: 组件插件
         icon: fas fa-plug
         config: codePlugins
+      - name: 在线题库
+        icon: fas fa-warehouse
+        config: codeQuestion  
+      - name: 国内镜像源
+        icon: fas fa-clipboard
+        config: codeMirrors              
   - name: 项目文档
     icon: fas fa-dollar-sign
     submenu:
@@ -239,6 +242,11 @@ codeQuestion:
     url: https://leetcode.cn/
     img: https://leetcode.cn/favicon.ico
     description: 力扣
+codeMirrors:
+  - name: 清华大学开源软件镜像站
+    url: https://mirrors.tuna.tsinghua.edu.cn/help/
+    img: https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png
+    description: 清华大学开源软件镜像站使用手册
 codeTools:
   - name: Mermaid Live Editor
     url: https://mermaid.live/
