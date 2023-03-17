@@ -103,7 +103,7 @@ menu:
       - name: Office
         icon: fas fa-file-powerpoint
         config: workOffice
-  - name: 博客建站
+  - name: 博客常用
     icon: fas fa-blog
     submenu:
       - name: 博客框架
@@ -788,6 +788,10 @@ blogTools:
     url: https://imgbot.net/
     img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/imgbot.png
     description: Relax while Imgbot optimizes your images
+  - name: 在线微信对话生成器- 新版
+    url: https://www.goodsunlc.com/status/screenshots/index.html
+    img: https://www.goodsunlc.com/favicon.ico
+    description: 在线制作支付宝转帐和微信对话截图，可以生成朋友圈、转帐、余额、零钱、红包、聊天等截图，是进行各种段子创作及装X的热门工具.
 blogVPS:
   - name: RackNerd
     url: https://www.racknerd.com/
