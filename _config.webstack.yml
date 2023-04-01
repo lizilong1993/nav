@@ -435,6 +435,10 @@ codePlugins:
     url: https://vitejs.dev/
     img: https://vitejs.dev/logo-with-shadow.png
     description: Next Generation Frontend Tooling
+  - name: SweetAlert.js
+    url: https://sweetalert2.github.io/
+    img: https://sweetalert2.github.io/images/favicon.png
+    description: 前端弹窗库，好用强大漂亮
   - name: H-ui前端框架
     url: http://www.h-ui.net/
     img: http://www.h-ui.net/favicon.ico
