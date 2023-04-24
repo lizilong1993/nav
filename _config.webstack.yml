@@ -149,12 +149,12 @@ menu:
 recAI:
   - name: ChatGPT
     url: https://chat.openai.com/
-    img: https://chat.openai.com/favicon-16x16.png
+    img: https://chat.openai.com/favicon-32x32.png
     description: ChatGPT
   - name: New Bing
     url: https://www.bing.com/new
-    img: https://www.bing.com/rp/QO12R6eZz9WMzJPOio-qN8bXJZ4.png
-    description: AI画图，midjourney平替
+    img: https://www.bing.com/rp/SOP97zQpFD4pG6teqCTC-c4LEgE.svg
+    description: 微软New Bing，基于Gpt-4
   - name: VegaAI
     url: https://rightbrain.art/
     img: https://edit-static-1307270943.cos.ap-beijing.myqcloud.com/logo.ico
