@@ -35,7 +35,7 @@ menu:
     icon: fas fa-address-card
     config: myPage
   - name: 热门AI
-    icon:
+    icon: fas fa-robot
     config: recAI
   - name: 编程常用
     icon: far fa-heart
