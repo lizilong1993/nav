@@ -34,6 +34,9 @@ menu:
   - name: 个人博客
     icon: fas fa-address-card
     config: myPage
+  - name: 热门AI
+    icon:
+    config: recAI
   - name: 编程常用
     icon: far fa-heart
     submenu:
@@ -63,10 +66,10 @@ menu:
         config: codePlugins
       - name: 在线题库
         icon: fas fa-warehouse
-        config: codeQuestion  
+        config: codeQuestion
       - name: 国内镜像源
         icon: fas fa-clipboard
-        config: codeMirrors              
+        config: codeMirrors
   - name: 项目文档
     icon: fas fa-dollar-sign
     submenu:
@@ -143,6 +146,19 @@ menu:
     icon: fas fa-water
     config: others
 
+recAI:
+  - name: ChatGPT
+    url: https://chat.openai.com/
+    img: https://chat.openai.com/favicon-16x16.png
+    description: ChatGPT
+  - name: VegaAI
+    url: https://rightbrain.art/
+    img: data:image/x-icon;base64,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
+    description: AI画图，midjourney平替
+  - name: Tiamat
+    url: https://www.tiamat.world/
+    img: https://edit-static-1307270943.cos.ap-beijing.myqcloud.com/logo.ico
+    description: AI画图
 myPage:
   - name: 我的博客
     url: https://lizilong1993.github.io
@@ -485,7 +501,7 @@ projectDocument:
   - name: 《FFmpeg原理》
     url: http://ffmpeg.xianwaizhiyin.net/
     img: http://ffmpeg.xianwaizhiyin.net/favicon.ico
-    description: 主要讲解 FFmpeg 原理性的知识，前面几章主要讲解一些音视频开发的基础知识，例如原始数据 YUV 跟 RGB，封装格式 FLV 跟 MP4 ，压缩编码的基本概念，还有封装格式分析。   
+    description: 主要讲解 FFmpeg 原理性的知识，前面几章主要讲解一些音视频开发的基础知识，例如原始数据 YUV 跟 RGB，封装格式 FLV 跟 MP4 ，压缩编码的基本概念，还有封装格式分析。
   - name: MRCODE-BOOK
     url: https://zq99299.github.io/note-book/
     img: https://zq99299.github.io/note-book/favicon.ico
@@ -705,7 +721,7 @@ workFont:
   - name: 字魂网
     url: https://izihun.com/
     img: https://izihun.com/favicon.ico
-    description: 开源或免费商用字体            
+    description: 开源或免费商用字体
 workTranslate:
   - name: Translator
     url: https://github.com/zu1k/translator
@@ -778,7 +794,7 @@ blogDoc:
   - name: TinyPNG
     url: https://tinypng.com/
     img: https://tinypng.com/images/panda-happy.png
-    description: 
+    description:
 blogTools:
   - name: Butterfly主题美化教程
     url: https://butterfly.zhheo.com/
@@ -858,7 +874,7 @@ blogCDN:
     img: http://jscdn.upai.com/favicon.ico
     description: 常用JavaScript库CDN服务
 researchFigure:
-  - name: Visual Paradigm Online (VP Online) 
+  - name: Visual Paradigm Online (VP Online)
     url: https://online.visual-paradigm.com/cn/diagrams/solutions/free-erd-tool/
     img: https://online.visual-paradigm.com/favicon.ico
     description: 免费的实体关系图工具
@@ -879,10 +895,6 @@ others:
   - name: Convertio
     url: https://convertio.co/zh/
     img: https://convertio.co/favicon.ico
-    description: 文件转换器
-  - name: ChatGPT
-    url: https://chat.openai.com/
-    img: https://www.jsdelivr.com/favicon.ico
     description: 文件转换器
   - name: 网易见外
     url: https://jianwai.youdao.com/
