@@ -34,7 +34,7 @@ menu:
   - name: 个人博客
     icon: fas fa-address-card
     config: myPage
-  - name: 热门AI
+  - name: 人工智能
     icon: fas fa-robot
     config: recAI
   - name: 编程常用
