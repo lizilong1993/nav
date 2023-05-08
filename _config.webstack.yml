@@ -155,6 +155,10 @@ recAI:
     url: https://www.bing.com/new
     img: https://www.bing.com/rp/SOP97zQpFD4pG6teqCTC-c4LEgE.svg
     description: 微软New Bing，基于Gpt-4
+  - name: 文心一言
+    url: https://yiyan.baidu.com/welcome
+    img: https://nlp-eb.cdn.bcebos.com/logo/favicon.ico
+    description: 百度推出的知识增强大语言模型    
   - name: VegaAI
     url: https://rightbrain.art/
     img: https://edit-static-1307270943.cos.ap-beijing.myqcloud.com/logo.ico
