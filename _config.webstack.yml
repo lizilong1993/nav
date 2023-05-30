@@ -34,7 +34,7 @@ menu:
   - name: 个人博客
     icon: fas fa-address-card
     config: myPage
-  - name: 逆向破解
+  - name: 破解资源
     icon: fas fa-code
     config: crack
   - name: 人工智能
@@ -146,7 +146,7 @@ menu:
     icon: fas fa-water
     config: others
 
-Crack:
+crack:
   - name: 法海之路
     url: https://fahai.org/
     img: https://fahai.org/favicon.ico
