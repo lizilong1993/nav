@@ -34,6 +34,9 @@ menu:
   - name: 个人博客
     icon: fas fa-address-card
     config: myPage
+  - name: 逆向破解
+    icon: fas fa-code
+    config: crack
   - name: 人工智能
     icon: fas fa-robot
     config: recAI
@@ -52,9 +55,6 @@ menu:
       - name: 图床软件
         icon: fas fa-camera
         config: codeImages
-      - name: JetBrain破解
-        icon: fas fa-code
-        config: codeCrack
       - name: emoji
         icon: fas fa-smile-beam
         config: codeEmojis
@@ -146,6 +146,23 @@ menu:
     icon: fas fa-water
     config: others
 
+Crack:
+  - name: 法海之路
+    url: https://fahai.org/
+    img: https://fahai.org/favicon.ico
+    description: 软件破解资源
+  - name: Censys
+    url: https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.http.response.headers.location%3A+account.jetbrains.com%2Ffls-auth
+    img: https://search.censys.io/static/img/icon.png
+    description: 寻找全网包含account.jetbrains.com/fls-auth的网址
+  - name: SHODAN
+    url: https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth
+    img: https://www.shodan.io/static/img/favicon.png
+    description: 寻找全网包含account.jetbrains.com/fls-auth的网址
+  - name: JetBrains 激活服务器 (每日更新)
+    url: https://rushb.pro/article/JetBrains-license-server.html
+    img: https://dn-qiniu-avatar.qbox.me/avatar/126d7cee272a45cd72cfc551966753a8
+    description: JetBrains 激活服务器 (每日更新)
 recAI:
   - name: ChatGPT
     url: https://chat.openai.com/
@@ -379,19 +396,6 @@ codeImages:
     url: https://www.aliyun.com/
     img: https://www.aliyun.com/favicon.ico
     description: 丰富、安全、稳定的产品及服务
-codeCrack:
-  - name: Censys
-    url: https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.http.response.headers.location%3A+account.jetbrains.com%2Ffls-auth
-    img: https://search.censys.io/static/img/icon.png
-    description: 寻找全网包含account.jetbrains.com/fls-auth的网址
-  - name: SHODAN
-    url: https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth
-    img: https://www.shodan.io/static/img/favicon.png
-    description: 寻找全网包含account.jetbrains.com/fls-auth的网址
-  - name: JetBrains 激活服务器 (每日更新)
-    url: https://rushb.pro/article/JetBrains-license-server.html
-    img: https://dn-qiniu-avatar.qbox.me/avatar/126d7cee272a45cd72cfc551966753a8
-    description: JetBrains 激活服务器 (每日更新)
 codeEmojis:
   - name: emoji-list
     url: https://github.com/caiyongji/emoji-list
