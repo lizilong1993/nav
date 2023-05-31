@@ -34,6 +34,9 @@ menu:
   - name: 个人博客
     icon: fas fa-address-card
     config: myPage
+  - name: 个人常用
+    icon: fas fa-heart
+    config: myRec
   - name: 破解资源
     icon: fas fa-code
     config: crack
@@ -41,7 +44,7 @@ menu:
     icon: fas fa-robot
     config: recAI
   - name: 编程常用
-    icon: far fa-heart
+    icon: far fa-fire
     submenu:
       - name: 前端常用
         icon: fas fa-star
@@ -145,7 +148,19 @@ menu:
   - name: 其它工具
     icon: fas fa-water
     config: others
-
+myRec:
+  - name: 法海之路
+    url: https://fahai.org/
+    img: https://fahai.org/favicon.ico
+    description: 软件破解资源
+  - name: hacking C++
+    url: https://hackingcpp.com/index.html
+    img: https://hackingcpp.com/favicon.ico
+    description: 个人感觉比C++ Primer Plus好
+  - name: Font Aswsome
+    url: https://fontawesome.com/
+    img: https://fontawesome.com/favicon.ico
+    description: Font Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
 crack:
   - name: 法海之路
     url: https://fahai.org/
@@ -506,6 +521,10 @@ projectAPI:
     img: https://lizilong.oss-cn-hangzhou.aliyuncs.com/static/images/favicon/swagger.svg
     description: API Development for Everyone
 projectDocument:
+  - name: hacking C++
+    url: https://hackingcpp.com/index.html
+    img: https://hackingcpp.com/favicon.ico
+    description: 个人感觉比C++ Primer Plus好
   - name: MDN
     url: https://developer.mozilla.org/
     img: https://developer.mozilla.org/favicon.ico
