@@ -44,7 +44,7 @@ menu:
     icon: fas fa-robot
     config: recAI
   - name: 编程常用
-    icon: far fa-fire
+    icon: fas fa-fire
     submenu:
       - name: 前端常用
         icon: fas fa-star
