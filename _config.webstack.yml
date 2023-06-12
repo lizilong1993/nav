@@ -672,6 +672,10 @@ workController:
     img: https://parsec.app/favicon.ico
     description: Forget you're somewhere else
 workPS:
+  - name: 佐糖
+    url: https://picwish.cn/
+    img: https://qncdn.aoscdn.com/astro/picwish/_astro/favicon@30w.77030b97.png
+    description: 免费在线图片处理工具
   - name: ClipDrop
     url: https://clipdrop.co/
     img: https://clipdrop.co/favicon.ico
