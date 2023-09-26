@@ -911,8 +911,13 @@ blogCDN:
 researchFigure:
   - name: Visual Paradigm Online (VP Online)
     url: https://online.visual-paradigm.com/cn/diagrams/solutions/free-erd-tool/
-    img: https://online.visual-paradigm.com/favicon.ico
+    img: https://echarts.apache.org/zh/images/logo.png?_v_=20200710_1
     description: 免费的实体关系图工具
+  - name: ECharts.js
+    url: https://echarts.apache.org/zh/index.html
+    img: https://online.visual-paradigm.com/favicon.ico
+    description: 一个基于 JavaScript 的开源可视化图表库
+
 systemIMG:
   - name: DistroWatch.com
     url: https://distrowatch.com/
