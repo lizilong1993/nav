@@ -73,9 +73,21 @@ menu:
       - name: 国内镜像源
         icon: fas fa-clipboard
         config: codeMirrors
-  - name: 项目文档
-    icon: fas fa-dollar-sign
+  - name: 开源书籍
+    icon: fas fa-book
     submenu:
+      - name: GIS
+        icon: fas fa-globe-asia
+        config: bookGIS
+      - name: CV
+        icon: fas fa-photo-video
+        config: bookCV
+      - name: AI
+        icon: fas fa-brain
+        config: bookAI             
+  - name: 项目文档
+    icon: fas fa-file-word
+    submenu: 
       - name: 项目开发
         icon: fas fa-folder-open
         config: projectWeb
@@ -83,7 +95,7 @@ menu:
         icon: fas fa-restroom
         config: projectAPI
       - name: 文档教程
-        icon: fas fa-file-word
+        icon: fas fa-file-code
         config: projectDocument
   - name: 办公常用
     icon: fas fa-suitcase
@@ -494,6 +506,28 @@ codePlugins:
     url: hhttp://doc.autoxjs.com/
     img: http://doc.autoxjs.com/images/logo.png
     description: Auto.js开源替代，安卓平台上的JavaScript自动化工具
+
+bookGIS:
+  - name: Cloud-Based Remote Sensing with Google Earth Engine
+    url: https://www.eefabook.org/
+    img: https://www.eefabook.org/uploads/1/4/2/9/142922407/background-images/1828844657.jpg
+    description: 《使用谷歌地球引擎进行云端遥感：基础和应用》这本书(封面见图1)大致分为两部分：第一部分是基础知识，包括31个主题，旨在帮助您从一个完全不熟悉地球引擎的初学者，成长为一个相当高级的用户；第二部分是应用，将向您介绍地球引擎的世界，共分24章，展示它是如何在依赖遥感数据的各种环境中使用的。
+
+
+bookCV:
+  - name: 
+    url: 
+    img: 
+    description: 
+
+
+
+bookAI:
+  - name: 
+    url: 
+    img: 
+    description: 
+
 projectWeb:
   - name: code.fun
     url: https://code.fun/
