@@ -394,6 +394,10 @@ codeIcons:
     url: https://fontawesome.com/
     img: https://fontawesome.com/favicon.ico
     description: Font Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
+  - name: Feather
+    url: https://feathericons.com/
+    img: https://feathericons.com/favicon-32x32.png
+    description: Simply beautiful open source icons
   - name: Simple Icons
     url: https://simpleicons.org/
     img: https://simpleicons.org/images/favicon.ico
